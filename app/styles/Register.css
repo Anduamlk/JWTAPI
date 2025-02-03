@@ -1,0 +1,87 @@
+/* Main container for the registration form */
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* Registration form styling */
+  .formWrapper {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 1rem;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form input fields */
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.8rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  /* Focus effect on input fields */
+  input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Disabled button styling */
+  button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+  }
+  
+  /* Message styles (success or error) */
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Success message */
+  .success {
+    color: #28a745;
+  }
+  
+  /* Error message */
+  .error {
+    color: #dc3545;
+  }
+  
